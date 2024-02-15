@@ -1,0 +1,10 @@
+--mode=testing
+--vertical_cell_count=5
+--horizontal_cell_count=5
+--vertical_idx_target=2
+--horizontal_idx_target=0
+--episode_steps=200
+--max_response_time=10
+--reward=15.0
+--data_dir=../data/data_5x5_200steps_gradient1
+--results_dir=../results/greedy
