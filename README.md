@@ -1,7 +1,6 @@
 # Risk-Sensitive Soft Actor-Critic for Robust Deep Reinforcement Learning under Distribution Shifts
 
-This software uses a risk-sensitive version of Soft Actor-Critic for discrete actions to train and test a policy, represented by a neural network, that is robust against distribution shifts in an environment that represents typical contextual multi-stage stochastic combinatorial optimiza-
-tion problems. 
+This software uses a risk-sensitive version of Soft Actor-Critic for discrete actions to train and test a policy, represented by a neural network, that is robust against distribution shifts in an environment that represents typical contextual multi-stage stochastic combinatorial optimization problems. 
 
 This method is proposed in:
 
