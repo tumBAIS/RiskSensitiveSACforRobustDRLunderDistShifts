@@ -4,7 +4,7 @@ This software uses a risk-sensitive version of Soft Actor-Critic for discrete ac
 
 This method is proposed in:
 
-> Tobias Enders, James Harrison, Maximilian Schiffer (2024). Risk-Sensitive Soft Actor-Critic for Robust Deep Reinforcement Learning under Distribution Shifts. arXiv preprint arXiv:2402.XXXXX.
+> Tobias Enders, James Harrison, Maximilian Schiffer (2024). Risk-Sensitive Soft Actor-Critic for Robust Deep Reinforcement Learning under Distribution Shifts. arXiv preprint [arXiv:2402.09992](https://arxiv.org/abs/2402.09992).
 
 All components (code, data, etc.) required to run the experiments reported in the paper are provided here. This includes the greedy and risk-neutral Soft Actor-Critic baseline algorithms as well as the robust benchmarks: manipulating the training data and entropy regularization.
 
