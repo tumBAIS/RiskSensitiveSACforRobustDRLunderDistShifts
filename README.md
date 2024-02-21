@@ -18,7 +18,11 @@ Algorithms in the directory `algorithms`:
 - The greedy baseline algorithm is implemented in `greedy.py` and can be executed using `main_greedy.py` with arguments as the exemplary ones provided in `args_greedy.txt` (see comments in `main_greedy.py` for explanations of the arguments).
 - The risk-sensitive Soft Actor-Critic algorithm is implemented in the remaining code files and can be executed using `main.py` with arguments as the exemplary ones provided in `args_RL.txt` (see comments in `main.py` for explanations of the arguments). By adapting the arguments, the same code can be used to run risk-neutral Soft Actor-Critic and the benchmarks. The code in `trainer.py` and `sac_discrete.py` is partly based on code from this [GitHub repository](https://github.com/keiohta/tf2rl).
 
+## Installation Instructions
+Executing the code requires Python and the Python packages in `requirements.txt`, which can be installed with `pip install -r requirements.txt`. 
+These packages include TensorFlow. In case of problems when trying to install TensorFlow, please refer to this [help page](https://www.tensorflow.org/install/errors).
+
 ## Code Execution
-To run the code, execute `python main.py @args_RL.txt` (analogously for the greedy algorithm). 
+To run the code, execute `python main.py @args_RL.txt` in the `algorithms` directory (analogously for the greedy algorithm). 
 
 For the instances and hyperparameters reported in the paper, a GPU should be used. 
